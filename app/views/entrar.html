@@ -1,0 +1,48 @@
+
+        <div class="login">
+    <ul class="breadcrumbs">
+        <li class="breadcrumb ">
+                <a href="http://cornerstone-warm-demo.mybigcommerce.com/" class="breadcrumb-label">Home</a>
+        </li>
+        <li class="breadcrumb is-active">
+                <span class="breadcrumb-label">Login</span>
+        </li>
+</ul>
+    <h1 class="page-heading">Sign in</h1>
+    <div class="login-row">
+        <form class="login-form form" action="/login.php?action=check_login" method="post">
+            <div class="form-field form-field--input form-field--inputEmail">
+                <label class="form-label" for="login_email">Email Address:</label>
+                <input class="form-input" name="login_email" id="login_email" type="email">
+            <span style="display: none;"></span></div>
+            <div class="form-field form-field--input form-field--inputPassword">
+                <label class="form-label" for="login_pass">Password:</label>
+                <input class="form-input" id="login_pass" type="password" name="login_pass">
+            <span style="display: none;"></span></div>
+            <div class="form-actions">
+                <input type="submit" class="button button--primary" value="Sign in">
+                <a class="forgot-password" href="/login.php?action=reset_password">Forgot your password?</a>
+            </div>
+        </form>
+            <div class="new-customer">
+                <div class="panel">
+                    <div class="panel-header">
+                        <h2 class="panel-title">New Customer?</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p class="new-customer-intro">Create an account with us and you'll be able to:</p>
+                        <ul class="new-customer-fact-list">
+                            <li class="new-customer-fact">Check out faster</li>
+                            <li class="new-customer-fact">Save multiple shipping addresses</li>
+                            <li class="new-customer-fact">Access your order history</li>
+                            <li class="new-customer-fact">Track new orders</li>
+                            <li class="new-customer-fact">Save items to your wish list</li>
+                        </ul>
+                        <a href="/#!/registrar"><button class="button button--primary">Create Account</button></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+    
